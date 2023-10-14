@@ -1,0 +1,170 @@
+        .bg-orange{
+            padding: 35px 0px 0px 0px;
+        }
+        .daily-deals .daily-deals-inner-container .daily-deals-header .header-body .deal-details .timer-container {
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .daily-deals .daily-deals-inner-container .daily-deals-header .header-body .deal-details {
+           margin-right: 50px;
+            text-align: left;
+        }
+        .daily-deals .daily-deals-inner-container .daily-deals-header {
+            font-size: 16px;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 7%;
+            background: linear-gradient(104deg,#89cffd 0,#d8ffdc 100%) no-repeat;
+            min-height: 310px;
+        }
+        .daily-deals .daily-deals-inner-container .daily-deals-header .header-body .deal-details .timer-container .todays-deal {
+            font-weight: 700;
+            margin-right: 20px;
+        }
+        .timer {
+            display: flex;
+        }
+       .timer .box-container .box {
+            height: 45px;
+            width: 45px;
+            text-align: center;
+            line-height: 45px;
+            background-color: #eee;
+            border-radius: 5px;
+           font-weight: 700;
+        }
+       .timer .box-container {
+            text-align: center;
+            margin-right: 10px;
+      }
+      .card-bg{
+        background-color: #fefefe;
+        /*margin-top:30px;*/
+        background: linear-gradient(-110deg,#f5b8ba  0,#d8ffdc 100%) no-repeat;
+        /*min-height: 310px;*/
+      }
+      .tmi{
+        float:left; font-weight: 700; margin-right: 25px;  
+      }
+      .card-title{
+          text-align: left;
+          font-family: Quicksand;
+          font-size: 40px;
+          font-weight: 600;
+          color: #326230;
+          margin-bottom: 5px;
+          padding-top: 10px;
+      }
+      p.card-text{
+          color: #615e58;
+      }
+      .flash-btn {
+      flex: 1 1 auto;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.5s;
+      background-size: 200% auto;
+      color: white;
+      text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+      box-shadow: 0 0 20px #eee;
+      border-radius: 10px;
+     }
+    
+    .flash-btn:hover {
+      background-position: right center; 
+    }
+    .btn-3 {
+      background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    }
+    
+    
+    
+    
+    .deal-product {
+        width: 100%;
+        max-width: 450px;
+        min-width: 350px;
+        min-height: 120px;
+        background-color: #fff;
+        padding: 10px;
+        position: relative;
+        border-radius: 12px;
+        display: flex;
+        /*margin-top:60px;*/
+    }
+    .deal-product img {
+        height: 100px;
+        width: 100px;
+        margin-right: 15px;
+    }
+    .deal-product .product-details {
+        margin-top: 5px;
+        padding-bottom: 60px;
+    }
+    .deal-product .product-details .product-name {
+        font-size: clamp(18px,2vw,18px);
+        font-weight: 700;
+    }
+   .deal-product .product-details .subText {
+        font-size: clamp(14px,2vw,15px);
+        margin-top: 25px;
+    }
+   .deal-product .price {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        padding: 20px;
+    }
+    .deal-product .price .amount {
+        display: flex;
+        margin-top: 37px;
+        margin-right: 5px;
+    }
+    
+    .deal-product .price .amount svg {
+        margin: 0 2px 0 4px;
+    }
+    .deal-product .price .amount section {
+        font-weight: 700;
+        display: inline;
+        font-size: 26px;
+        color: #5cbbf9;
+        padding: 0px;
+    }
+    .deal-product .price .discount-percent {
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        text-align: center;
+        background: linear-gradient(180deg,#f45966 0,#f9745d 100%) no-repeat;
+        color: #fff;
+        transform: rotate(11deg);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top:20px;
+    }
+    .deal-product .price .discount-percent span:first-of-type {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+    .product-card h1{
+    font-family: 'Questrial', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    /*line-height: 16px;*/
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    /*height: 35px;*/
+  }
+    
+    

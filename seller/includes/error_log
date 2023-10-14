@@ -1,0 +1,24 @@
+[04-Feb-2023 06:10:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/sorbovuk/public_html/seller/apps/functions/db_connect.php on line 3
+[04-Feb-2023 06:10:49 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/sorbovuk/public_html/seller/apps/functions/db_connect.php on line 4
+[19-Feb-2023 06:30:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[19-Feb-2023 06:30:50 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[19-Feb-2023 06:30:50 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/functions.php on line 31
+[19-Feb-2023 06:31:04 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[19-Feb-2023 06:31:04 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[19-Feb-2023 06:31:04 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/functions.php on line 31
+[19-Feb-2023 06:31:24 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[19-Feb-2023 06:31:24 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[19-Feb-2023 06:31:24 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/functions.php on line 31
+[19-Feb-2023 06:31:59 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[19-Feb-2023 06:31:59 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[19-Feb-2023 06:31:59 UTC] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/functions.php on line 31
+[20-Feb-2023 20:21:53 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[20-Feb-2023 20:21:53 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[21-Feb-2023 21:24:09 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[21-Feb-2023 21:24:09 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[23-Feb-2023 13:29:07 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[23-Feb-2023 13:29:07 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[25-Feb-2023 19:29:11 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[25-Feb-2023 19:29:11 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4
+[08-May-2023 13:43:31 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'sorbovuk_data'@'localhost' (using password: YES) in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 3
+[08-May-2023 13:43:31 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/bazaarsodai/public_html/seller/apps/functions/db_connect.php on line 4

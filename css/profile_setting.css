@@ -1,0 +1,59 @@
+::-webkit-scrollbar {
+            width: 8px;
+    }
+            /* Track */
+    ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888; 
+    }
+                                
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    } body {
+        background: #326230;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #326230;
+    }
+
+    .profile-button {
+        background: #326230;
+        box-shadow: none;
+        border: none;
+    }
+
+    .profile-button:hover {
+        background: #326230;
+    }
+
+    .profile-button:focus {
+        background: #326230;
+        box-shadow: none;
+    }
+
+    .profile-button:active {
+        background: #326230;
+        box-shadow: none;
+    }
+
+    .back:hover {
+        color: #326230;
+        cursor: pointer;
+    }
+
+    .labels {
+        font-size: 14px;
+    }
+
+    .add-experience:hover {
+        background: #326230;
+        color: #fff;
+        cursor: pointer;
+        border: solid 1px #326230;
+    }

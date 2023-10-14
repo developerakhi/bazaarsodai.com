@@ -1,0 +1,170 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteEngine on
+RewriteRule ^cat?$ product.php
+
+RewriteEngine on
+RewriteRule ^profile?$ myaccount_profile.php
+
+RewriteEngine on
+RewriteRule ^address?$ myaccount_address.php
+
+RewriteEngine on
+RewriteRule ^order?$ order_history_purcheses.php
+
+RewriteEngine on
+RewriteRule ^bookAddress?$ book_address.php
+
+RewriteEngine on
+RewriteRule ^account?$ myaccount_account_details.php
+
+RewriteEngine on
+RewriteRule ^password?$ myaccount_password.php
+
+RewriteEngine on
+RewriteRule ^main?$ main_product.php
+
+RewriteEngine on
+RewriteRule ^pharmacy?$ pharmacy.php
+
+RewriteEngine on
+RewriteRule ^offer?$ offer.php
+
+RewriteEngine on
+RewriteRule ^grocery?$ grocery.php
+
+RewriteEngine on
+RewriteRule ^flash_deals?$ flash_deals.php
+
+RewriteEngine on
+RewriteRule ^freedelivery?$ free_delivery.php
+
+RewriteEngine on
+RewriteRule ^request?$ request_order.php
+
+RewriteEngine on
+RewriteRule ^contact?$ contact_us.php
+
+RewriteEngine on
+RewriteRule ^privacy_policy$ privacy.php
+
+RewriteEngine on
+RewriteRule ^return_policy$ return.php
+
+RewriteEngine on
+RewriteRule ^terms$ terms.php
+
+RewriteEngine on
+RewriteRule ^help_more$ help_more.php
+
+RewriteEngine on
+RewriteRule ^invoice?$ order_invoice.php
+
+RewriteEngine on
+RewriteRule ^offer?$ offer.php
+
+RewriteEngine on
+RewriteRule ^collection?$ collection.php
+
+RewriteEngine on
+RewriteRule ^hygiene?$ medicine.php
+
+RewriteEngine on
+RewriteRule ^search?$ search.php
+
+RewriteEngine on
+RewriteRule ^login?$ login.php
+
+RewriteEngine on
+RewriteRule ^register?$ register.php
+
+RewriteEngine on
+RewriteRule ^recipes?$ recipes.php
+
+RewriteEngine on
+RewriteRule ^popular?$ popular.php
+
+RewriteEngine on
+RewriteRule ^discount?$ discount.php
+
+RewriteEngine on
+RewriteRule ^sellerlogin?$ seller_login.php
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /user_otp/([^?\ /]+)
+RewriteRule ^user_otp/(.*)$ usetOTP.php?mobileNo=%1 [L]
+
+
+DirectoryIndex index.php
+AddDefaultCharset utf-8
+
+Options +FollowSymlinks -MultiViews -Indexes  
+
+AddDefaultCharset UTF-8
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /product/([^?\ /]+)
+RewriteRule ^product/(.*)$ p_d.php?FirstHead=%1 [L]
+
+RewriteEngine on
+RewriteRule ^subcat/([0-9a-zA-Z]+)$ cat_out_vw.php?Amar_cat=$1[L]
+
+RewriteEngine on
+RewriteRule ^subcat/([0-9a-zA-Z]+)/([0-9a-zA-Z-]+)$ cat_out_vw.php?Amar_cat=$1&Ditoad=$2 [L]
+
+AddDefaultCharset UTF-8
+RewriteEngine On
+RewriteCond %{THE_REQUEST} /category/([^?\ /]+)
+RewriteRule ^category/(.*)$ p_cat.php?MainCat=%1 [L]
+ 
+RewriteEngine on
+RewriteRule ^page/([0-9a-zA-Z]+)$ detail-mrer.php?PgMn_ID=$1[L]
+
+RewriteEngine on
+RewriteRule ^store/([0-9a-zA-Z]+)$ store.php?storeID=$1[L]
+
+RewriteEngine on
+RewriteRule ^seller/([0-9a-zA-Z]+)$ seller.php?sellerID=$1[L]
+
+RewriteEngine on
+RewriteRule ^([0-9a-zA-Z_]+)$ crt-pgds-stm.php?actionID=$1 [L]
+
+RewriteEngine on
+RewriteRule ^([0-9a-zA-Z_]+)/([0-9a-zA-Z_]+)$ has-bin/cnt-al-abort.php?actionID=$1&ItemID=$2 [L]
+
+RewriteEngine on
+RewriteRule ^search/([0-9a-zA-Z]+)$ search.php?searchID=$1[L]
+
+RewriteEngine on
+RewriteRule ^shopsearch/([0-9a-zA-Z]+)$ shopsearch.php?shopsearchID=$1[L]
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 64M
+   php_flag zlib.output_compression On
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 128M
+   php_value post_max_size 64M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 64M
+   php_flag zlib.output_compression On
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

@@ -1,0 +1,246 @@
+::-webkit-scrollbar-thumb:hover {
+        /*background: #555; */
+    } body {
+        /*background: #326230;*/
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #326230;
+    }
+
+    .profile-button {
+        background: #326230;
+        box-shadow: none;
+        border: none;
+    }
+
+    .profile-button:hover {
+        background: #326230;
+    }
+
+    .profile-button:focus {
+        background: #326230;
+        box-shadow: none;
+    }
+
+    .profile-button:active {
+        background: #326230;
+        box-shadow: none;
+    }
+
+    .back:hover {
+        color: #326230;
+        cursor: pointer;
+    }
+
+    .labels {
+        font-size: 14px;
+    }
+
+    .add-experience:hover {
+        background: #326230;
+        color: #fff;
+        cursor: pointer;
+        border: solid 1px #326230;
+    }
+   
+   .myaccount-tab-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .myaccount-tab-menu a {
+        border: 1px solid #ccc;
+        border-bottom: none;
+        font-weight: 600;
+        font-size: 13px;
+        display: block;
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align:left;
+    }
+    .myaccount-tab-menu a:last-child {
+        border: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        
+    }
+    .myaccount-tab-menu a.active {
+        background-color: #326230;
+        border-color: #326230;
+        color: #fff;
+    }
+    .myaccount-tab-menu a:hover, .myaccount-tab-menu a.active {
+        background-color: #326230;
+        border-color: #326230;
+        color: #fff;
+    }
+    .myaccount-tab-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .myaccount-tab-menu a i{
+        padding-right:6px;
+    }
+    .main {
+        padding-top: 50px;
+        /*padding-bottom: 300px;*/
+    }
+    .aiz-user-panel {
+        -ms-flex-positive: 1;
+        flex-grow: 0.8;
+        padding-left: 40px;
+        margin-bottom: 70px;
+    }
+    gutters-10 > .col, .gutters-10 > [class*="col-"] {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .text-white {
+        color: #fff !important;
+    }
+    .mb-4, .my-4 {
+        margin-bottom: 24px !important;
+    }
+    .overflow-hidden {
+        overflow: hidden !important;
+    }
+    .rounded-lg {
+        border-radius: 0.3rem !important;
+    }
+    .bg-grad-3 {
+        background-color: #448334;
+        background-image: linear-gradient(315deg, #c1d4e1 0%, #306626 74%);
+        box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%), 0 1px 4px 0 rgb(0 0 0 / 15%);
+    }
+    /*.bg-grad-3 {*/
+    /*    background-color: #47c5f4;*/
+    /*    background-image: linear-gradient(315deg, #c1d4e1 0%, #61a5d0 74%);*/
+    /*    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%), 0 1px 4px 0 rgb(0 0 0 / 15%);*/
+    /*}*/
+    .pl-3, .px-3 {
+        padding-left: 16px !important;
+    }
+    .pr-3, .px-3 {
+        padding-right: 16px !important;
+    }
+    .pt-3, .py-3 {
+        padding-top: 16px !important;
+    }
+    .text-white .display-1, .text-white .display-2, .text-white .display-3, .text-white .display-4, .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white .h1, .text-white .h2, .text-white .h3, .text-white .h4, .text-white .h5, .text-white .h6, .text-white .blockquote {
+        color: #fff;
+    }
+    .fw-700 {
+        font-weight: 700 !important;
+    }
+    .display-1, .display-2, .display-3, .display-4, h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
+        font-family: "Poppins",sans-serif;
+        letter-spacing: -0.2px;
+    }
+
+    h4, .h4 {
+        font-size: 16px;
+    }
+    .opacity-50 {
+        opacity: 0.5 !important;
+    }
+    svg {
+        overflow: hidden;
+        vertical-align: middle;
+    }
+    
+    
+    .myaccount-tab-menu a{
+        text-decoration:none;
+        color:#000;
+    }
+    .myaccount-content {
+        border: 1px solid #eeeeee;
+        padding: 30px;
+        height: 100%;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+    .myaccount-content h3 {
+        font-size: 17px;
+        border-bottom: 1px dashed #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+    .myaccount-content .account-details-form {
+        margin-top: 50px;
+    }
+    .myaccount-content form {
+        margin-top: -20px;
+    }
+    .myaccount-content .account-details-form .single-input-item input {
+        border: 1px solid #e8e8e8;
+        height: 45px;
+        background-color: transparent;
+        padding: 2px 20px;
+        color: #1f2226;
+        font-size: 13px;
+        width: 100%;
+    }
+    .myaccount-content .account-details-form .single-input-item button {
+        border: none;
+        background-color: #326230;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 9px 25px;
+        color: #fff;
+        font-size: 13px;
+    }
+    .myaccount-content .account-details-form .single-input-item {
+        margin-bottom: 20px;
+    }
+    
+    
+    .card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}

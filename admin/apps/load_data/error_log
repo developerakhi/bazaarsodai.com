@@ -1,0 +1,16 @@
+[17-Jul-2023 10:35:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php on line 162
+[17-Jul-2023 10:35:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php on line 162
+[17-Jul-2023 10:35:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php on line 162
+[17-Jul-2023 10:35:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php:162
+Stack trace:
+#0 {main}
+  thrown in /home/bazaarsodai/public_html/admin/apps/load_data/loadDcat.php on line 162
